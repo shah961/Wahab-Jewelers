@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & VIP Appointment | Wahab Jewellers Lahore</title>
+  <meta name="description" content="Visit Wahab Jewellers in Liberty Market, Gulberg III, Lahore or schedule a private consultation for bridal gold and custom diamond jewelry.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="brand-logo">Wahab Jewellers<span>Liberty Market • Lahore</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Heritage</a></li>
+      <li><a href="services.html">Services & Rates</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+    <a href="https://wa.me/923315550421" target="_blank" class="btn-gold"><i class="fa-brands fa-whatsapp"></i> WhatsApp VIP</a>
+  </nav>
+
+  <section class="section-padding">
+    <div class="section-header">
+      <p class="section-tag">Visit Store</p>
+      <h2 class="section-title">Schedule A VIP Consultation</h2>
+    </div>
+
+    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; max-width: 1100px; margin: 0 auto;">
+      
+      <!-- Contact Form -->
+      <div class="glass-card">
+        <h3 style="font-family:var(--font-serif); color:var(--gold-primary); margin-bottom:20px;">Book Store Appointment</h3>
+        <form id="consultation-form">
+          <div class="form-group">
+            <label class="form-label" for="booking-name">Full Name</label>
+            <input type="text" id="booking-name" class="form-input" placeholder="e.g. Fatima Ali" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="booking-phone">Phone / WhatsApp</label>
+            <input type="tel" id="booking-phone" class="form-input" placeholder="+92 300 1234567" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="booking-service">Service Interested In</label>
+            <select id="booking-service" class="form-select">
+              <option value="Bridal Set Consultation">Full Bridal Set Consultation</option>
+              <option value="Custom CAD Design">Custom CAD Design Request</option>
+              <option value="Gold Exchange/Valuation">Gold Exchange & Valuation</option>
+              <option value="Solitaire Diamond Ring">Solitaire Diamond Ring Inquiry</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-gold" style="width:100%; justify-content:center; margin-top:10px;"><i class="fa-brands fa-whatsapp"></i> Book via WhatsApp</button>
+        </form>
+      </div>
+
+      <!-- Address & Map Info -->
+      <div class="glass-card" style="display:flex; flex-direction:column; justify-content:space-between;">
+        <div>
+          <h3 style="font-family:var(--font-serif); color:var(--gold-primary); margin-bottom:20px;">Store Information</h3>
+          <p style="margin-bottom:15px;"><i class="fa-solid fa-location-dot" style="color:var(--gold-primary); margin-right:10px;"></i> <strong>Address:</strong> Shop #12-B, Main Liberty Plaza, Liberty Market, Gulberg III, Lahore, Punjab, Pakistan.</p>
+          <p style="margin-bottom:15px;"><i class="fa-solid fa-phone" style="color:var(--gold-primary); margin-right:10px;"></i> <strong>Direct Line:</strong> +92 331 555 0421</p>
+          <p style="margin-bottom:15px;"><i class="fa-solid fa-envelope" style="color:var(--gold-primary); margin-right:10px;"></i> <strong>Email:</strong> info@wahabjewellers.com</p>
+          <p style="margin-bottom:15px;"><i class="fa-solid fa-clock" style="color:var(--gold-primary); margin-right:10px;"></i> <strong>Hours:</strong> Mon – Sat: 12:00 PM – 10:00 PM (Sunday Closed)</p>
+        </div>
+
+        <div style="width:100%; height:200px; border-radius:4px; overflow:hidden; border:1px solid var(--border-gold); margin-top:20px;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.488349258931!2d74.3441!3d31.5102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDMwJzM2LjciTiA3NMKwMjAnMzguOCJF!5e0!3m2!1sen!2spk!4v1620000000000!5m2!1sen!2spk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p>&copy; 2026 Wahab Jewellers. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
